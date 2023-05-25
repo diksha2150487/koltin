@@ -6,30 +6,21 @@
 .paper1 {
   background-color: #085881;
   display: flex;
+  justify-content: space-between;
 }
 .leftpaper1 {
   padding: 5rem;
-  /* background-color: #ccc; */
-  width: 60%;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
-/* .rightpaper1 {
-  width: 40%;
-  margin-top: auto;
-  margin-left: 4rem;
-  display: flex;
-  flex-direction: column;
-} */
+
 .circle {
   background: #d9d9d9;
-  /* position: absolute; */
-  /* z-index: 1; */
   padding: 9rem;
   border-radius: 50%;
-  /* margin-left: 3rem; */
   max-width: 360px;
-  height: 360px;
-  margin-top: 3rem;
+  height: 300px;
+  margin-top: 5.8rem;
+  margin-right: 9rem;
 }
 .rightimg1 {
   position: relative;
@@ -40,7 +31,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 35px;
   line-height: 50px;
-  /* max-width: 430px; */
+  white-space: nowrap;
   top: 6.25%;
   color: #ffffff;
 }
@@ -48,7 +39,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 35px;
   line-height: 50px;
-  /* max-width: 430px; */
+
   top: 6.25%;
   color: #ffffff;
 }
@@ -66,43 +57,25 @@
   margin-top: 3px;
   margin-left: 4px;
 }
-@media (max-width: 930px) {
+@media (max-width: 883px) {
   .paper1 {
-    flex-direction: column-reverse;
-    justify-content: center;
-  }
-  .rightpaper1 {
-    /* background-color: #202020; */
-    align-items: center;
-    margin-left: auto;
-    width: 100%;
-    padding-top: 2rem;
-  }
-  .rightimg1 {
-    width: 200px;
+    flex-direction: column;
   }
   .circle {
-    padding: 6.2rem;
-  }
-  .leftpaper1 {
     margin-left: auto;
     margin-right: auto;
-    /* padding: 4px; */
-
-    width: auto;
-    padding: 10px;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  .leftpaper1 {
+    width: 100%;
   }
 }
-@media (max-width: 353px) {
-  .team {
-    padding: 0.5rem;
-    font-size: 15px;
+@media (max-width: 546px) {
+  .leftpaper1 {
+    padding: 2rem;
   }
-}
-@media (max-width: 920px) {
-  .circle {
-    text-align: center;
+  .leftpaper1 h2 {
+    font-size: x-large;
   }
 }
