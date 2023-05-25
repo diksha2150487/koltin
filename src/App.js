@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
-
+import img1 from "./image/Group 1000006006.png";
 function App() {
   return (
     <div>
@@ -14,7 +14,6 @@ function App() {
             <AiOutlineArrowRight id="fArrow" />
           </button>
         </div>
-
         <div className="circle"></div>
       </div>
     </div>
